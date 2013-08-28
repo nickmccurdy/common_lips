@@ -1,5 +1,3 @@
-require "common_lips/version"
-
 module CommonLips
-  # Your code goes here...
+  VERSION = '0.0.1'
 end
