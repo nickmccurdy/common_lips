@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = CommonLips::VERSION
   spec.authors       = ["Nicolas McCurdy"]
   spec.email         = ["thenickperson@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = "A more confusing version of Common Lisp."
+  spec.summary       = "A more confusing version of Common Lisp."
   spec.homepage      = ""
   spec.license       = "MIT"
 
