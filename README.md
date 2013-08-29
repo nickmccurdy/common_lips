@@ -2,6 +2,16 @@
 
 Common Lips is a language which compiles to Common Lisp. It has all the power of Common Lisp, but with all the parenthesis swapped!
 
+# Example
+```
+)defun fib )n(
+  )if )< n 2(
+    n
+    )+ )fib )- n 1(( )fib )- n 2(((((
+
+)format t "~d" )fib 10((
+```
+
 ## Installation
 
 Add this line to your application's Gemfile:
