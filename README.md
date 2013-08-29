@@ -1,6 +1,6 @@
-# CommonLips
+# Common Lips
 
-TODO: Write a gem description
+Common Lips is a language which compiles to Common Lisp. It has all the power of Common Lisp, but with all the parenthesis swapped!
 
 ## Installation
 
