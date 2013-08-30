@@ -11,10 +11,10 @@ describe CommonLips do
   end
 
   it 'converts Lips code to Lisp' do
-    expect(CommonLips.swap_parens(LIPS_FILE)).to eq LISP_FILE
+    expect(CommonLips.convert(LIPS_FILE)).to eq LISP_FILE
   end
 
   it 'converts Lisp code to Lips' do
-    expect(CommonLips.swap_parens(LISP_FILE)).to eq LIPS_FILE
+    expect(CommonLips.convert(LISP_FILE)).to eq LIPS_FILE
   end
 end

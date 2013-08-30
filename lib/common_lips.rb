@@ -13,12 +13,13 @@ module CommonLips
     '(' => ')'
   }
 
-  # Swaps all left and right parenthesis in a String
+  # Converts source code between Lips and Lisp by swapping all left and right
+  # parenthesis
   #
   # @param [String] code a String of source code to convert
   #
   # @return [String] the converted source code
-  def swap_parens(code)
+  def convert(code)
     map_string(code) { |char| REPLACEMENTS[char] || char }
   end
 
