@@ -3,9 +3,6 @@ module CommonLips
 
   extend self
 
-  # The version of the CommonLips gem
-  VERSION = '0.0.1'
-
   # A hash of characters that should be replaced when converting between Lips
   # and Lisp (and vice versa)
   REPLACEMENTS = {
