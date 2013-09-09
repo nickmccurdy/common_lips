@@ -6,10 +6,15 @@
   :version "0.0.1"
   :author "Nicolas McCurdy <thenickperson@gmail.com>"
   :license "MIT"
+  :depends-on (#:fiveam)
   :components
   ((:module src
             :serial t
             :components
             ((:file "package")
-             (:file "common_lips")))))
+             (:file "common_lips")))
+   (:module test
+            :serial t
+            :components
+            ((:file "test_common_lips")))))
 
