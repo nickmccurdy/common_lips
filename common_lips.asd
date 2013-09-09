@@ -2,9 +2,9 @@
 
 (asdf:defsystem #:common_lips
   :serial t
-  :description "Describe common_lips here"
-  :author "Your Name <your.name@example.com>"
-  :license "Specify license here"
+  :description "A more confusing version of Common Lisp."
+  :author "Nicolas McCurdy <thenickperson@gmail.com>"
+  :license "MIT"
   :components ((:file "package")
                (:file "common_lips")))
 
