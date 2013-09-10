@@ -1,5 +1,6 @@
 ;;;; package.lisp
 
 (defpackage #:common_lips
-  (:use #:cl))
+  (:use #:cl)
+  (:export #:convert))
 
