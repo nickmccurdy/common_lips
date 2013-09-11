@@ -2,5 +2,6 @@
 
 (defpackage #:common_lips
   (:use #:cl)
-  (:export #:convert))
+  (:export #:convert
+           #:run))
 

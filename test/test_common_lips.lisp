@@ -26,4 +26,8 @@
       (is (string= lips-file
              (common_lips:convert lisp-file))))
 
+(test runs-lips-code
+      (is (= 4
+             (common_lips:run ")+ 2 2("))))
+
 (run!)

@@ -15,3 +15,13 @@
                  ((string= c #\() #\))
                  (t c)))
        code))
+
+; Executes Common Lips code and returns the resulting stdout as a String.
+; This works by converting the code to Common Lisp and then calling run_lisp.
+;
+; @param [String] code the Lips code to execute
+;
+; @return [String] the result of the Lips program, with leading and trailing
+; whitespace removed
+(defun run (code)
+  (eval (read-from-string (convert code))))
