@@ -16,5 +16,6 @@
    (:module test
             :serial t
             :components
-            ((:file "test_common_lips")))))
+            ((:file "test_helper")
+             (:file "test_common_lips")))))
 
