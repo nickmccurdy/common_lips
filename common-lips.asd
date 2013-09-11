@@ -17,5 +17,5 @@
                 :depends-on (#:common-lips)
                 :pathname "test/"
                 :components
-                ((:file "test-helper")
-                 (:file "test-common-lips")))
+                ((:file "helper")
+                 (:file "tests")))
