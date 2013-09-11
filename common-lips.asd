@@ -1,6 +1,6 @@
-;;;; common_lips.asd
+;;;; common-lips.asd
 
-(asdf:defsystem #:common_lips
+(asdf:defsystem #:common-lips
                 :serial t
                 :description "A more confusing version of Common Lisp."
                 :version "0.0.1"
@@ -12,9 +12,9 @@
                           :serial t
                           :components
                           ((:file "package")
-                           (:file "common_lips")))
+                           (:file "common-lips")))
                  (:module test
                           :serial t
                           :components
-                          ((:file "test_helper")
-                           (:file "test_common_lips")))))
+                          ((:file "test-helper")
+                           (:file "test-common-lips")))))

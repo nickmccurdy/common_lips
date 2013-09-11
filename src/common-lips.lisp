@@ -1,6 +1,6 @@
-;;;; common_lips.lisp
+;;;; common-lips.lisp
 
-(in-package #:common_lips)
+(in-package #:common-lips)
 
 (defun convert (code)
   "Converts a string of code between Lips and Lisp by swapping all left and right parenthesis."
