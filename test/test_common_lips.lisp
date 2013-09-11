@@ -4,19 +4,16 @@
 (def-suite :common_lips)
 (in-suite :common_lips)
 
-(defconstant lips-file ")defun fib )n(
-  )if )< n 2(
-    n
-    )+ )fib )- n 1(( )fib )- n 2(((((
+(defun file-string (path)
+  ; From http://rosettacode.org/wiki/Read_entire_file#Common_Lisp
+  "Load the entire contents of some text file as a single string variable."
+  (with-open-file (stream path)
+    (let ((data (make-string (file-length stream))))
+      (read-sequence data stream)
+      data)))
 
-)format t \"~d\" )fib 10((")
-
-(defconstant lisp-file "(defun fib (n)
-  (if (< n 2)
-    n
-    (+ (fib (- n 1)) (fib (- n 2)))))
-
-(format t \"~d\" (fib 10))")
+(defconstant lips-file (file-string "test/samples/fib.lips"))
+(defconstant lisp-file (file-string "test/samples/fib.lisp"))
 
 (test converts-lips-code-to-lisp
       (is (string= lisp-file
