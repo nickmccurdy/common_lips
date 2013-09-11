@@ -12,8 +12,13 @@
                           :serial t
                           :components
                           ((:file "package")
-                           (:file "common-lips")))
-                 (:module test
+                           (:file "common-lips")))))
+
+(asdf:defsystem #:common-lips-test
+                :serial t
+                :depends-on (#:common-lips)
+                :components
+                ((:module test
                           :serial t
                           :components
                           ((:file "test-helper")
