@@ -1,3 +1,5 @@
+;;;; test_helper.lisp
+
 (defun file-string (path)
   ; From http://rosettacode.org/wiki/Read_entire_file#Common_Lisp
   "Load the entire contents of some text file as a single string variable."
