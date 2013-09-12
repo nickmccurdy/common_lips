@@ -8,8 +8,8 @@
       (read-sequence data stream)
       data)))
 
-(defconstant lips-file (file-string "test/samples/fib.lips")
+(defconstant +lips-code+ (file-string "test/samples/fib.lips")
              "A string of sample Lips code.")
 
-(defconstant lisp-file (file-string "test/samples/fib.lisp")
+(defconstant +lisp-code+ (file-string "test/samples/fib.lisp")
              "A string of sample Lisp code.")

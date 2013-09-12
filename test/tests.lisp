@@ -11,13 +11,13 @@
 
 (test convert-lips
       "Converts Lips code to Lisp."
-      (is (string= lisp-file
-                   (common-lips:convert lips-file))))
+      (is (string= +lisp-code+
+                   (common-lips:convert +lips-code+))))
 
 (test convert-lisp
       "Converts Lisp code to Lips."
-      (is (string= lips-file
-                   (common-lips:convert lisp-file))))
+      (is (string= +lips-code+
+                   (common-lips:convert +lisp-code+))))
 
 (test run-lips
       "Runs Lips code."
