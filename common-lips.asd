@@ -12,6 +12,7 @@
 
 (defsystem #:common-lips-test
            :serial t
+           :description "The test suite for Common Lips."
            :depends-on (#:common-lips)
            :pathname "test/"
            :components
