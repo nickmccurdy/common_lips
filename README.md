@@ -1,6 +1,10 @@
 # Common Lips
+Common Lips is a language which compiles to Common Lisp. It has all the power of
+Common Lisp, but with all the parenthesis swapped!
 
-Common Lips is a language which compiles to Common Lisp. It has all the power of Common Lisp, but with all the parenthesis swapped!
+## Documentation
+Please see the docstrings. A link to generated documentation may be added in the
+future.
 
 # Example
 ```
