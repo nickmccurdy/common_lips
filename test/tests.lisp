@@ -6,8 +6,6 @@
            :description "Tests how Common Lips converts and runs code.")
 (in-suite :common-lips)
 
-(load "test/helper")
-
 (test convert-lips
       "Converts Lips code to Lisp."
       (is (string= +lisp-code+

@@ -8,7 +8,7 @@
            :pathname "src/"
            :components
            ((:file "package")
-            (:file "common-lips")))
+            (:file "common-lips" :depends-on ("package"))))
 
 (defsystem #:common-lips-test
            :serial t
@@ -16,4 +16,4 @@
            :pathname "test/"
            :components
            ((:file "helper")
-            (:file "tests")))
+            (:file "tests" :depends-on ("helper"))))
