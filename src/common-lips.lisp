@@ -1,4 +1,3 @@
-;;;; common-lips.lisp
 
 (in-package #:common-lips)
 

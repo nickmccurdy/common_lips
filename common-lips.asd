@@ -1,4 +1,3 @@
-;;;; common-lips.asd
 
 (asdf:defsystem #:common-lips
                 :serial t

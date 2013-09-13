@@ -1,4 +1,3 @@
-;;;; tests.lisp
 
 (in-package #:common-lips)
 (in-package :it.bese.fiveam)

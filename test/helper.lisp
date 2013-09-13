@@ -1,4 +1,3 @@
-;;;; helper.lisp
 
 (defun file-string (path)
   ; From http://rosettacode.org/wiki/Read_entire_file#Common_Lisp
