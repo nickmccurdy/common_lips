@@ -1,5 +1,5 @@
 
-(in-package :it.bese.fiveam)
+(in-package :common-lips-test)
 
 (def-suite common-lips
            :description "Tests how Common Lips converts and runs code.")

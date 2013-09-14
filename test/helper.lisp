@@ -1,4 +1,6 @@
-(in-package :it.bese.fiveam)
+(defpackage :common-lips-test
+  (:use :cl :fiveam))
+(in-package :common-lips-test)
 
 (defun file-string (path)
   ; From http://rosettacode.org/wiki/Read_entire_file#Common_Lisp
