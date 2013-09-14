@@ -1,5 +1,4 @@
 
-(in-package #:common-lips)
 (in-package :it.bese.fiveam)
 
 (def-suite common-lips
