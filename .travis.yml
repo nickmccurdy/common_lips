@@ -5,3 +5,5 @@ rvm:
 branches:
   except:
     - lisp-port
+before_install:
+  - sudo apt-get install clisp
