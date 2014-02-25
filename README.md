@@ -2,7 +2,7 @@
 
 Common Lips is a language which compiles to Common Lisp. It has all the power of Common Lisp, but with all the parenthesis swapped!
 
-## [Documentation](http://rubydoc.info/github/thenickperson/common_lips/frames)
+## [Documentation](http://rubydoc.info/github/nicolasmccurdy/common_lips/frames)
 
 # Example
 ```
