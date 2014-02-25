@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["thenickperson@gmail.com"]
   spec.description   = "A more confusing version of Common Lisp."
   spec.summary       = "A more confusing version of Common Lisp."
-  spec.homepage      = "https://github.com/thenickperson/common_lips"
+  spec.homepage      = "https://github.com/nicolasmccurdy/common_lips"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
